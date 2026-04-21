@@ -73,6 +73,7 @@
     <Content Include="VIEW_State.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="Without_Viewstate.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExperiencedApplication.aspx.cs">
@@ -110,6 +111,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Without_Viewstate.aspx.cs">
+      <DependentUpon>Without_Viewstate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Without_Viewstate.aspx.designer.cs">
+      <DependentUpon>Without_Viewstate.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
