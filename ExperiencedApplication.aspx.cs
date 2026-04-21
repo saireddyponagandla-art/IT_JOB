@@ -72,7 +72,7 @@ namespace IT_JOB
                 }
             }
 
-            protected void btnreset_Click(object sender, EventArgs e)
+            protected void btnReset_Click(object sender, EventArgs e)
             {
                 txtFirstName.Text = "";
                 txtLastName.Text = "";

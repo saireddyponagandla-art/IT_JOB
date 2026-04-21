@@ -365,10 +365,16 @@
                         <asp:Button ID="btnSubmit" runat="server" Text="Submit Application" OnClick="btnSubmit_Click" />
                         <asp:Button ID="btnReset" runat="server" Text="Reset" OnClick="btnReset_Click" />
 
-                        <table>  <tr> <td>
+                        <table> 
+                            <tr>
+                                <td>
                             <asp:Label ID="lblResult" runat="server" ForeColor="Green"></asp:Label>
 
-                                      </td></tr></table>
+                                      </td>
+
+                            </tr>
+
+                        </table>
         </div>
     </form>
 </body>
