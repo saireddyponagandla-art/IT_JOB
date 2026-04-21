@@ -26,7 +26,7 @@
     <form id="form1" runat="server">
         <div style="width: 700px; margin: auto;">
             <h2>FRESHERS'S APPLICATION FORM</h2>
-            <table>
+            <table align ="center">
                 <tr>
                     <td class="auto-style1" style="red">
                         <h3>Personal Details</h3>
@@ -234,7 +234,7 @@
                                 <td>Marks (%):
             <asp:TextBox ID="txtPGMarks" runat="server" Width="100px"></asp:TextBox>
                                     <%--                                    <asp:RequiredFieldValidator ID="rfvPGMarks" runat="server"
-                                        ControlToValidate="txtPGMarks" ErrorMessage="Marks--%> <%--are required"
+                                        ControlToValidate="txtPGMarks" ErrorMessage="Marks--%><%--are required"
                                         ForeColor="Red"></asp:RequiredFieldValidator>--%>
                                 </td>
                             </tr>
@@ -276,7 +276,13 @@
 
                         <asp:Button ID="btnSubmit" runat="server" Text="Submit Application" OnClick="btnSubmit_Click" />
                         <asp:Button ID="btnReset" runat="server" Text="Reset" OnClick="btnReset_Click" />
-                        <asp:Label ID="lblResult" runat="server" ForeColor="pink"></asp:Label>
+                        <br />
+                        <br />
+                        <table align="center">
+
+                              <asp:Label ID="lblResult" runat="server" ForeColor="blue"></asp:Label>
+                        </table>
+                      
         </div>
     </form>
 </body>

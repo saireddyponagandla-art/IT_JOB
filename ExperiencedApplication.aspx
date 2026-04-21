@@ -362,9 +362,13 @@
                                 </td>
                             </tr>
                         </table>
+                        <asp:Button ID="btnSubmit" runat="server" Text="Submit Application" OnClick="btnSubmit_Click" />
+                        <asp:Button ID="btnReset" runat="server" Text="Reset" OnClick="btnReset_Click" />
 
-                        <asp:Button ID="btnSubmit" runat="server" Text="Submit Application" />
-                        <asp:Button ID="btnreset" runat="server" Text="Reset" />
+                        <table>  <tr> <td>
+                            <asp:Label ID="lblResult" runat="server" ForeColor="Green"></asp:Label>
+
+                                      </td></tr></table>
         </div>
     </form>
 </body>
