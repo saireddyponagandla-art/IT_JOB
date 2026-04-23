@@ -26,6 +26,6 @@ namespace IT_JOB
             count++;
             label1.Text = "Button clicked " + count + " times.";
         }
-    }
+    }   
 
     }
