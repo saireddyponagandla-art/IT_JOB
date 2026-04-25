@@ -32,7 +32,28 @@
                         <asp:Button ID="btnsubmit" runat="server" Text="Submit" OnClick="btnsubmit_Click" />
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="btnupdate" runat="server" Text="Update" OnClick="btnupdate_Click" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="btndelete" runat="server" Text="Delete" OnClick="btndelete_Click" />
+                    </td>
+                </tr>
+              
+                <tr>
+                    <td>
+                        <asp:GridView ID="grdData" runat="server" AutoGenerateColumns="true"></asp:GridView>
+                    </td>
+                </tr>
                 </table>
+              <tr>
+      <td>
+          <asp:Button ID="btnsearch" runat="server" Text="Search" OnClick="btnsearch_Click" />
+      </td>
+  </tr>
         </div>
     </form>
 </body>
