@@ -34,13 +34,28 @@
                         <asp:TextBox ID="txtparentname" runat="server"></asp:TextBox>
                     </td>
                 </tr>
-                <
+                <tr>
+                    <td>
+                        <asp:Label ID="lbldateofbirth" runat="server" Text="DateofBirth"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtdateofbirth" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <asp:Label ID="lblgender" runat="server" Text="Gender"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="txtgender" runat="server"></asp:TextBox>   
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lbllocation" runat="server" Text="Location"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtlocation" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>

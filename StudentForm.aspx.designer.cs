@@ -78,6 +78,24 @@ namespace IT_JOB
         protected global::System.Web.UI.WebControls.TextBox txtparentname;
 
         /// <summary>
+        /// lbldateofbirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbldateofbirth;
+
+        /// <summary>
+        /// txtdateofbirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtdateofbirth;
+
+        /// <summary>
         /// lblgender control.
         /// </summary>
         /// <remarks>
@@ -94,6 +112,24 @@ namespace IT_JOB
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtgender;
+
+        /// <summary>
+        /// lbllocation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbllocation;
+
+        /// <summary>
+        /// txtlocation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtlocation;
 
         /// <summary>
         /// btnsubmit control.
