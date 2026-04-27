@@ -71,6 +71,7 @@
     <Content Include="IT_FresherJobApp.aspx" />
     <Content Include="Page_Lifecycle.aspx" />
     <Content Include="RegistrationformWithValidation.aspx" />
+    <Content Include="StudentForm.aspx" />
     <Content Include="VIEW_State.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -107,6 +108,13 @@
     </Compile>
     <Compile Include="RegistrationformWithValidation.aspx.designer.cs">
       <DependentUpon>RegistrationformWithValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentForm.aspx.cs">
+      <DependentUpon>StudentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentForm.aspx.designer.cs">
+      <DependentUpon>StudentForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="VIEW_State.aspx.cs">
       <DependentUpon>VIEW_State.aspx</DependentUpon>
