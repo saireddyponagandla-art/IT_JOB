@@ -42,15 +42,6 @@ namespace IT_JOB
         protected global::System.Web.UI.WebControls.TextBox txtusername;
 
         /// <summary>
-        /// rfvusername control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvusername;
-
-        /// <summary>
         /// lblpassword control.
         /// </summary>
         /// <remarks>
@@ -67,15 +58,6 @@ namespace IT_JOB
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtpassword;
-
-        /// <summary>
-        /// rfvpassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvpassword;
 
         /// <summary>
         /// btnsubmit control.

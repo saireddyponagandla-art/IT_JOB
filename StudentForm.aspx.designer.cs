@@ -96,6 +96,33 @@ namespace IT_JOB
         protected global::System.Web.UI.WebControls.TextBox txtdateofbirth;
 
         /// <summary>
+        /// ddlDateOfBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlDateOfBirth;
+
+        /// <summary>
+        /// ddlMonthOfBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlMonthOfBirth;
+
+        /// <summary>
+        /// ddlYearOfBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlYearOfBirth;
+
+        /// <summary>
         /// lblgender control.
         /// </summary>
         /// <remarks>
@@ -114,6 +141,15 @@ namespace IT_JOB
         protected global::System.Web.UI.WebControls.TextBox txtgender;
 
         /// <summary>
+        /// rblgender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblgender;
+
+        /// <summary>
         /// lbllocation control.
         /// </summary>
         /// <remarks>
@@ -130,6 +166,24 @@ namespace IT_JOB
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtlocation;
+
+        /// <summary>
+        /// lblPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPhoneNumber;
+
+        /// <summary>
+        /// txtPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPhoneNumber;
 
         /// <summary>
         /// btnsubmit control.
